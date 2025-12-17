@@ -1,6 +1,6 @@
-local Debug = true
+TAC.Debug = true
 
-if not Debug then
+if not TAC.Debug then
     return
 end
 
