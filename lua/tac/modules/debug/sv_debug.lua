@@ -72,6 +72,10 @@ concommand.Add("tac_reload", function()
 	)
 end)
 
+function printf(...)
+    MsgN(string.format(...))
+end
+
 dbg = TAC.Print
 
 hook.Add("PostEntityFireBullets", "Accuracy.Count", function() end)

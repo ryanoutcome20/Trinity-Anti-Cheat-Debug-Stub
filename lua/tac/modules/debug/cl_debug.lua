@@ -24,3 +24,7 @@ end)
 concommand.Add("tac_dbg_out", function()
     PrintTable(TAC)
 end)
+
+function printf(...)
+    MsgN(string.format(...))
+end
